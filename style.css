@@ -1,0 +1,192 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    text-align: left;
+}
+
+ul li.nav-item a.nav-link {
+    text-decoration: none;
+    color: #593d33;
+    font-family: Raleway-Regular;
+    font-size: 20px;
+}
+
+header {
+    background-color: #f9ce26;
+}
+
+.header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+
+.row.together {
+    margin-bottom: 60px;
+}
+
+.header p {
+    font-family: Arcon;
+    font-size: 20px;
+    color: #593d33;
+}
+
+h1 {
+    font-family: ProximaNova;
+    font-size: 55px;
+    font-weight: bold;
+    color: #593d33;
+} 
+
+img.world-class.width-100 {
+    width: 80%;
+}
+
+.about-us {
+    background-color: #fffffe;
+    padding: 50px 0 25px 0;
+}
+
+.section-top-border {
+    margin-top: 50px;
+}
+
+.section-bottom-border {
+    margin-bottom: 50px;
+}
+
+.about h4 {
+    font-family: ProximaNova;
+    font-size: 30px;
+    color: #593d33;
+}
+
+.about p {
+    font-family: Arcon;
+    font-size: 20px;
+    color:#333333;
+}
+
+.offers {
+    background-color: #f3f3f3;
+    padding: 90px 0 100px 0;
+}
+
+.offers p {
+    font-family: Arcon;
+    font-size: 22px;
+    color: #593d33;
+}
+
+h4.new-offers {
+    margin-bottom: 10px;
+}
+
+h4 {
+    color: #593d33;
+    font-size: 30px;
+    font-family: ProximaNova-Semibold;
+}
+
+button.btn#round {
+    background-color: #593d33;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+}
+.telcos {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.telcos img {
+    width: 80%;
+    margin-top: 20px;
+}
+
+.businesses {
+    margin-bottom: 50px;
+}
+
+.bussinesses img {
+    width: 70%;
+}
+
+.consumers {
+    margin-bottom: 50px;
+}
+
+.consumers img {
+    width: 70%;
+}
+
+h4.impact {
+    margin-top: 10px;
+}
+
+h4.expand {
+    margin-top: 20px;
+}
+
+h4.connected {
+    margin-top: 40px;
+}
+
+.contact-us {
+    padding: 90px 0 100px 0;
+    background-color: #fffffe;
+    margin-bottom: 30px;
+}
+
+.contact-us p {
+    color: #333333;
+    font-family: Arcon;
+    font-size: 22px;
+}
+
+h4.head {
+    font-size: 30px;
+    font-family: ProximaNova-Semibold;
+    color: #593d33;
+}
+
+.address h4 {
+    font-size: 22px;
+    font-family: ProximaNova-Semibold;
+    color: #593d33;
+}
+
+.address p a {
+    text-decoration: none;
+    color: #333333;
+}
+form.message p{
+    font-family: Montserrat;
+    font-size: 6px;
+    color: rgba(153, 153, 153, 0.54);
+}
+
+input.form-control, textarea.form-control {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+}
+
+.round {
+    background-color: #593d33;
+    color: #f3f3f3;
+    float: left;
+    padding: 10px;
+    border-radius: 50%;
+}
