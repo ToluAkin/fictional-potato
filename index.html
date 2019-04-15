@@ -8,25 +8,31 @@
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=sans-serif' rel='stylesheet'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="shortcut icon" href="images/ad.png">
 </head>
 <body>
     <header>
         <div class="container">
-            <nav class="navbar">
+            <nav class="navbar navbar-expand-md">
                 <a class="navbar-brand" href="index.html">
                     <img src="images/ad-kandi-logo.png" alt="logo">
                 </a>
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#mission">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#offers">What we offer</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact us</a>
-                    </li>
-                </ul>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">&#9776;</span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#mission">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#offers">What we offer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
         <section class="header">
@@ -75,12 +81,12 @@
                 </div>
             </div>
             <div class="row telcos">
-                <div class="col-md-6">
+                <div class="col-md-6 align-self-center text-center">
                     <img src="images/undraw-connected-world-wuay.png">
                 </div>
                 <div class="col-md-6 align-self-center">
                     <span class="round text-center px-3">1</span>
-                    <br>
+                    <br><br>
                     <h4 class="impact">Telcos</h4>
                     <p>	• 	Make impact by reaching over getting 200 million people in Africa between ages 15 and 24 connected to the internet while you earn more.<br>
                         • 	Become a platform for over 30 million African SMEs to access more retail customers.<br>
@@ -90,7 +96,10 @@
                 </div>
             </div>
             <div class="row businesses">
-                <div class="col-md-6 align-self-center">
+                <div class="col-md-6 align-self-center text-center business-img">
+                    <img src="images/storefront-colour.png">
+                </div>
+                <div class="col-md-6 align-self-center business-text">
                     <span class="round text-center px-3">2 </span>
                     <br>
                     <h4 class="expand">Businesses</h4>
@@ -100,12 +109,10 @@
                         •	Create adverts at and from your convenience.
                     </p>
                 </div>
-                <div class="col-md-6">
-                    <img src="images/storefront-colour.png">
-                </div>
+                
             </div>
             <div class="row consumers">
-                <div class="col-md-6">
+                <div class="col-md-6 align-self-center text-center">
                     <img src="images/drawkit-phone-conversation-colour.png">
                 </div>
                 <div class="col-md-6 align-self-center">
@@ -132,7 +139,7 @@
             <div class="row address">
                 <div class="col-md-6">
                     <h4>Address</h4>
-                    <p>109 Awolowo road, 3rd floor, Ikoyi, Lagos, Nigeria.</p>
+                    <p>109 Awolowo road, 3rd floor, Ikoyi, <br> Lagos, Nigeria.</p>
                 </div>
                 <div class="col-md-6">
                     <h4>Customer Support</h4>
@@ -168,7 +175,7 @@
                     </div>
                     <div class="col-md-6">
                         <label for="msg">MESSAGE</label>
-                        <textarea class="form-control" type="text" rows="3"></textarea>
+                        <textarea class="form-control autoExpand" rows="1" type="text"></textarea>
                     </div>
                 </div>
                 <br>
@@ -180,6 +187,7 @@
             </form>
         </div>
     </section>
+    <script src="main.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

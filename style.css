@@ -10,12 +10,12 @@ body {
     font-stretch: normal;
     line-height: normal;
     text-align: left;
+    font-family: "Helvetica Neue", "Open-sans", sans-serif ;
 }
 
 ul li.nav-item a.nav-link {
     text-decoration: none;
     color: #593d33;
-    font-family: Raleway-Regular;
     font-size: 20px;
 }
 
@@ -33,14 +33,17 @@ header {
     margin-bottom: 60px;
 }
 
+.navbar-toggler-icon {
+    color: #593d33;
+    line-height: 30px;
+}
 .header p {
-    font-family: Arcon;
     font-size: 20px;
     color: #593d33;
 }
 
 h1 {
-    font-family: ProximaNova;
+    font-family: "ProximaNova";
     font-size: 55px;
     font-weight: bold;
     color: #593d33;
@@ -50,6 +53,9 @@ img.world-class.width-100 {
     width: 80%;
 }
 
+h4 img {
+    margin-top: -12px;
+}
 .about-us {
     background-color: #fffffe;
     padding: 50px 0 25px 0;
@@ -64,13 +70,11 @@ img.world-class.width-100 {
 }
 
 .about h4 {
-    font-family: ProximaNova;
     font-size: 30px;
     color: #593d33;
 }
 
 .about p {
-    font-family: Arcon;
     font-size: 20px;
     color:#333333;
 }
@@ -81,7 +85,6 @@ img.world-class.width-100 {
 }
 
 .offers p {
-    font-family: Arcon;
     font-size: 22px;
     color: #593d33;
 }
@@ -93,7 +96,6 @@ h4.new-offers {
 h4 {
     color: #593d33;
     font-size: 30px;
-    font-family: ProximaNova-Semibold;
 }
 
 button.btn#round {
@@ -104,14 +106,14 @@ button.btn#round {
     border-radius: 50%;
     float: left;
 }
+
 .telcos {
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 50px;
 }
 
 .telcos img {
-    width: 80%;
-    margin-top: 20px;
+    width: 85%;
 }
 
 .businesses {
@@ -150,19 +152,16 @@ h4.connected {
 
 .contact-us p {
     color: #333333;
-    font-family: Arcon;
     font-size: 22px;
 }
 
 h4.head {
     font-size: 30px;
-    font-family: ProximaNova-Semibold;
     color: #593d33;
 }
 
 .address h4 {
     font-size: 22px;
-    font-family: ProximaNova-Semibold;
     color: #593d33;
 }
 
@@ -171,16 +170,19 @@ h4.head {
     color: #333333;
 }
 form.message p{
-    font-family: Montserrat;
     font-size: 6px;
     color: rgba(153, 153, 153, 0.54);
 }
 
-input.form-control, textarea.form-control {
+input.form-control, textarea.autoExpand {
     border-top: none;
     border-left: none;
     border-right: none;
     border-radius: 0;
+}
+
+textarea.autoExpand {
+    overflow: hidden;
 }
 
 .round {
@@ -189,4 +191,25 @@ input.form-control, textarea.form-control {
     float: left;
     padding: 10px;
     border-radius: 50%;
+}
+
+button.btn {
+    float:right;
+    background-color: #593d33;
+    color: #f9ce26;
+}
+
+label { 
+    font-family: "Helvetica Neue", "Open-sans", sans-serif;
+    font-size: 12px;
+}
+
+@media (min-width: 768px){
+    .business-img {
+        order: 2;
+    }
+
+    .business-text {
+        order: 1;
+    }
 }
