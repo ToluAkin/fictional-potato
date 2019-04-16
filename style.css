@@ -10,7 +10,7 @@ body {
     font-stretch: normal;
     line-height: normal;
     text-align: left;
-    font-family: "Helvetica Neue", "Open-sans", sans-serif ;
+    /*font-family: "Helvetica Neue", "Open-sans", sans-serif ;*/
 }
 
 ul li.nav-item a.nav-link {
@@ -43,7 +43,7 @@ header {
 }
 
 h1 {
-    font-family: "ProximaNova";
+    /*font-family: "ProximaNova";*/
     font-size: 55px;
     font-weight: bold;
     color: #593d33;
@@ -69,7 +69,7 @@ h4 img {
     margin-bottom: 50px;
 }
 
-.about h4 {
+h4 {
     font-size: 30px;
     color: #593d33;
 }
@@ -84,7 +84,7 @@ h4 img {
     padding: 90px 0 100px 0;
 }
 
-.offers p {
+.offers ul li {
     font-size: 22px;
     color: #593d33;
 }
@@ -200,7 +200,7 @@ button.btn {
 }
 
 label { 
-    font-family: "Helvetica Neue", "Open-sans", sans-serif;
+    font-family: "Lato", "Open-sans", sans-serif;
     font-size: 12px;
 }
 
@@ -212,4 +212,33 @@ label {
     .business-text {
         order: 1;
     }
+}
+
+.adkandi-logo {
+    height: 40px;
+}
+
+body{
+    font-family: "Lato", "Open Sans", sans-serif ;
+}
+
+.navbar {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato", "Open Sans", sans-serif;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+.jumbotron-text {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.offers ul{
+    list-style-position: inside;
 }
